@@ -4,8 +4,8 @@
 
 ### Files Breakdown:
 
-- droneSim -> Drone Simulation software
-- consumerDrone -> Saves drone messages to the Database
+- droneSimulation -> Drone Simulation software
+- consumerDroneDbDump -> Saves drone messages to the Database
 - droneAlertHandler -> Sends alerts to the website
 - projectReadCSV -> Sends line by line the historical data through Kafka
 - dumpCsvToDb -> Saves the historical data from Kafka to mongoDB
