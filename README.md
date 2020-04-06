@@ -1,4 +1,4 @@
-# Projet-Scala
+# Functional Data Programming Project
 
 ## Functional Data Programming Project made by Radu Cernaianu, Dona Chadid, Clément Lambling and Louis Potron
 
