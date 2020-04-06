@@ -18,7 +18,7 @@ total_alerts = active_alerts + solved_alerts
 INTERRUPT_EVENT = Event()
 
 bus = FlaskKafka(INTERRUPT_EVENT,
-                 bootstrap_servers=",".join(["192.168.1.18:9092"]),
+                 bootstrap_servers=",".join(["localhost:9092"]),
                  group_id="consumer-grp-id"
                  )
 
