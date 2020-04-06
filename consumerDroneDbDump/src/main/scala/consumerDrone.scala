@@ -14,7 +14,7 @@ object consumerDrone {
 
       val props = new Properties()
 
-      props.put("bootstrap.servers", "192.168.1.24:9092")
+      props.put("bootstrap.servers", "localhost:9092")
 
       props.put("key.deserializer", "org.apache.kafka.common.serialization.StringDeserializer")
 
