@@ -14,6 +14,7 @@ alerts = list()
 active_alerts = 0
 solved_alerts = 0
 total_alerts = active_alerts + solved_alerts
+
 INTERRUPT_EVENT = Event()
 
 bus = FlaskKafka(INTERRUPT_EVENT,
