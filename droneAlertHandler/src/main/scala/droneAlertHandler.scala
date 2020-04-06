@@ -15,7 +15,7 @@ object droneAlertHandler {
 
       val props = new Properties()
 
-      props.put("bootstrap.servers", "192.168.1.24:9092")
+      props.put("bootstrap.servers", "localhost:9092")
 
       props.put("key.deserializer", "org.apache.kafka.common.serialization.StringDeserializer")
 
@@ -37,7 +37,7 @@ object droneAlertHandler {
     def initializeKafka(): KafkaProducer[String,String] = {
       val props = new Properties()
 
-      props.put("bootstrap.servers", "192.168.1.18:9092")
+      props.put("bootstrap.servers", "localhost:9092")
 
       props.put("key.serializer", "org.apache.kafka.common.serialization.StringSerializer")
 
